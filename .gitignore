@@ -1,0 +1,67 @@
+# ============================================================
+# 🚀 FUEL EU MARITIME — Full-Stack Project .gitignore
+# Covers: Node.js, TypeScript, Vite, Prisma, and common tools
+# ============================================================
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.cache/
+.tmp/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Editor / IDE folders
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite / React build cache
+frontend/.vite/
+frontend/dist/
+frontend/node_modules/
+
+# Backend build
+backend/dist/
+backend/node_modules/
+
+# Test outputs
+coverage/
+*.lcov
+
+# Prisma (optional future use)
+prisma/dev.db
+prisma/migrations/
+prisma/*.sqlite
+*.db
+
+# Miscellaneous
+*.tgz
+*.zip
+*.log
